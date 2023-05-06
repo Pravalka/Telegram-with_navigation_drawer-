@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/android"
+            android:icon="@drawable/baseline_phone_android_24"
+            android:title="Android" />
+
+        <item
+            android:id="@+id/mail"
+            android:icon="@drawable/baseline_email_24"
+            android:title="Mail" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/baseline_share_24"
+                android:title="Share" />
+
+            <item
+                android:id="@+id/rate"
+                android:icon="@drawable/baseline_rate_review_24"
+                android:title="Rate" />
+        </menu>
+
+    </item>
+</menu>
